@@ -1,0 +1,50 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #32b67a;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 15px 15px;
+}
+
+nav {
+  /* float: right; */
+}
+
+header a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+header li {
+  display: inline-block;
+}
+
+body {
+  background: #ffefe5;
+}
+
+.column {
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+  border: .25px solid black;
+}
+
+footer{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-icons {
+  display: inline-block;
+  margin-right: 10px;
+}
