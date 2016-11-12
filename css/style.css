@@ -4,6 +4,11 @@
   clear: both;
 }
 
+html {
+  font-family: Futura, sans-serif;
+  background: #ffefe5;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,6 +18,10 @@ header {
   width: 100%;
   margin-bottom: 25px;
   padding: 15px 15px;
+}
+
+header h1, h2 {
+  text-align: center;
 }
 
 nav {
@@ -28,8 +37,9 @@ header li {
   display: inline-block;
 }
 
-body {
-  background: #ffefe5;
+.main-container {
+  width: 980px;
+  margin: 0 auto 55px;
 }
 
 .column {
@@ -37,6 +47,20 @@ body {
   display: inline-block;
   text-align: center;
   border: .25px solid black;
+}
+
+/* #portrait {
+  float: left;
+  border: 1px solid #000;
+  border-radius: 15px;
+} */
+#portrait img {
+  float: left;
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  margin: 0 15px 15px 0;
 }
 
 footer{
@@ -47,4 +71,8 @@ footer{
 .social-icons {
   display: inline-block;
   margin-right: 10px;
+}
+
+.social-icons a {
+  color: #000;
 }
