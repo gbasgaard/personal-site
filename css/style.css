@@ -4,68 +4,38 @@
   clear: both;
 }
 
-html {
+body {
   font-family: Futura, sans-serif;
   background: #ffefe5;
 }
 
-body {
-  margin: 0;
-}
 
 a {
   text-decoration: none;
-}
-
-.active {
-  color: #fb9b2a;
-  text-decoration: underline;
 }
 
 header {
   background: #32b67a;
   margin-bottom: 25px;
   padding: 15px 15px 0;
-  height: 150px;
+  height: 200px;
 }
 
 .header-icon {
   color: #fff;
 }
 
-header h1 {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-header h2 {
-  font-size: 20px;
-}
-
-header h1, h2 {
+/* header h1, h2 {
   text-align: center;
-}
-
-nav {
-  float: right;
-  padding: 15px;
-  border: 1px solid #000;
-  font-size: 18px;
-}
+} */
 
 header a {
   color: #fff;
-  margin-right: 15px;
 }
 
 header a:hover {
   color: #000;
 }
-
-header li {
-  display: inline-block;
-}
-
 
 #portrait img {
   float: left;
